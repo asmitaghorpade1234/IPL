@@ -15,6 +15,7 @@ public class TeamRepository {
 		team.setCoachName("Jaywardhan");
 		team.setQualified(false);
 		team.setnRR(2.3f);
+		team.setShortName("MI");
 		return team;		
 	}
 	
@@ -28,6 +29,7 @@ public class TeamRepository {
 		team1.setCoachName("Jaywardhan");
 		team1.setQualified(false);
 		team1.setnRR(3.4f);
+		team1.setShortName("CSK");
 		return team1;		
 	}		
 	
@@ -41,6 +43,7 @@ public class TeamRepository {
 		team2.setCoachName("Rahul Dravid");
 		team2.setQualified(false);
 		team2.setnRR(5.1f);
+		team2.setShortName("RR");
 		return team2;
 		}
 		
@@ -54,6 +57,7 @@ public class TeamRepository {
 			team3.setCoachName("Chandu Borde");
 			team3.setQualified(false);
 			team3.setnRR(1.2f);
+			team3.setShortName("KKR");
 			return team3;
 		}
 		
@@ -67,6 +71,7 @@ public class TeamRepository {
 			team4.setCoachName("JUSTIN LANGER");
 			team4.setQualified(true);
 			team4.setnRR(1.2f);
+			team4.setShortName("LSG");
 			return team4;
 		}		
 
@@ -80,6 +85,7 @@ public class TeamRepository {
 			team5.setCoachName("Andy Flower");
 			team5.setQualified(true);
 			team5.setnRR(1.2f);
+			team5.setShortName("RCB");
 			return team5;
 		}
 	
@@ -93,6 +99,7 @@ public class TeamRepository {
 		team6.setCoachName("Hemang Badani");
 		team6.setQualified(false);
 		team6.setnRR(1.2f);
+		team6.setShortName("DC");
 		return team6;
 	   }
 		
@@ -106,6 +113,7 @@ public class TeamRepository {
 			team7.setCoachName("Ricky Ponting");
 			team7.setQualified(true);
 			team7.setnRR(3.4f);
+			team7.setShortName("PK");
 			return team7;
 		}
 		
@@ -119,6 +127,7 @@ public class TeamRepository {
 			team8.setCoachName("Ashish Nehra");
 			team8.setQualified(false);
 			team8.setnRR(1.2f);
+			team8.setShortName("GT");
 			return team8;
 		}
 		
@@ -132,6 +141,7 @@ public class TeamRepository {
 			team9.setCoachName("Daniel Vettori");
 			team9.setQualified(false);
 			team9.setnRR(3.4f);
+			team9.setShortName("SRH");
 			return team9;
 			}	
 }

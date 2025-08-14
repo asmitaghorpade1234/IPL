@@ -14,8 +14,25 @@ public class Team {
 	
 	private boolean isQualified;
 	
+	private String shortName;
+	
+	// toString() - >converts object toString
+	// right click -> source -> generate toString()
+	@Override
+	public String toString() {
+		return "Team [id=" + id + ", teamName=" + teamName + ", captionName=" + captionName + ", coachName=" + coachName
+				+ ", nRR=" + nRR + ", isQualified=" + isQualified + ", shortName=" + shortName + "]";
+	}	
 	
 	//setter - getter
+	public String getShortName() {
+		return shortName;
+	}
+
+	public void setShortName(String shortName) {
+		this.shortName = shortName;
+	}
+
 	public int getId() {
 		return id;
 	}
